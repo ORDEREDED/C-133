@@ -1,0 +1,27 @@
+body{
+background-position:center;
+}
+#dl{
+float:left;
+margin-left:20px;
+}
+#dr{
+float:right;  
+margin-right:20px;  
+}
+img{
+width:200px;
+border-radius:50%;
+}
+canvas{
+animation-name:clop;
+animation-duration:4s;
+animation-iteration-count:infinite;
+}
+@keyframes clop{
+0%{box-shadow:10px 10px 50px blue;}
+25%{box-shadow:10px 10px 50px red;}
+50%{box-shadow:10px 10px 50px green;}
+75%{box-shadow:10px 10px 50px yellow;}
+100%{box-shadow:10px 10px 50px pink;}
+}
